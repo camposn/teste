@@ -1,0 +1,260 @@
+body{
+	background-color:	#003399;
+	
+}
+
+header{
+
+	height: 100px;
+
+}
+
+div.container{
+	border: 3px white solid;
+	margin: 0 auto;
+	width:450px;
+	height:580px;
+	background-color:#222222;
+	/*background-image:url("inicial.png");
+	background-size: 400px 580px;
+	background-repeat: no-repeat;*/
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+div#telaexplicacao{
+	display: none;
+	position: absolute;
+	
+	margin: 0 auto;
+	width:450px;
+	height:570px;	
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.8);
+
+}
+
+
+h3, ul, ol{
+
+	color:white;
+
+}
+
+li{
+
+text-align:left;
+	font-size:26px;
+	color:#7777FF;
+	font-weight: bold;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	
+}
+
+div#dapalavra{
+
+	/*border: 1px solid white;*/
+
+
+}
+
+
+div#resposta{
+	/*border: 3px white solid;*/
+	height: 100px;
+	
+}
+
+div#contin{
+
+	/*border: 3px white solid;*/
+	margin: 0 auto;
+	height: 50px;
+	width: 180px;
+	
+	
+}
+
+div#botoes{
+	margin: 0 auto;
+	width: 215px;
+	padding:5px;
+	/*border: 3px white solid;*/
+}
+
+div#menu{
+
+margin: 0px auto;
+/*border: 1px white solid;*/
+width: 200px;
+height: 200px;
+margin-top: 50px;
+
+}
+
+div#botoes2{
+	height: 50px;
+	width: 120px;
+	margin: 0px auto;
+	/*border: 1px white solid;*/
+
+
+}
+
+div#pontuacao{
+	width: 130px;
+	height: 105px;
+	margin:10px auto;
+	/*border: 1px white solid;*/
+}
+
+
+p{
+	text-align:center;
+	font-size:30px;
+	color:#7777FF;
+	font-weight: bold;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	
+}
+
+p#titulo_regra{
+	text-shadow: 0px 0px 4px red;
+	font-size: 28px;
+	margin: 15px;
+
+}
+
+p#regra, p#exemplo{
+
+
+	font-size: 26px;
+	text-align: left;
+	margin: 15px;
+	margin-top: 50px;
+	text-shadow: 0px 0px 4px red;
+}
+
+
+
+p.pont{
+	background-color: white;
+	font-size: 20px;
+	margin: 0px 0px;
+	padding:10px;
+
+
+}
+
+table, td , tr{
+	
+	font-size:20px;
+	padding:0px;
+	border-collapse: separate;
+/*	border: 1px solid white;*/
+	border-spacing: 5px;
+	
+
+}
+
+
+button#but_certo{
+	background-color:#7777FF;
+	width:85px;
+	height:35px;
+	color:white;
+	font-weight: bold;
+	font-size:18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button#but_errado{
+	background-color:#7777FF;
+	width:85px;
+	height:35px;
+	color:white;
+	font-weight: bold;
+	font-size:18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button#butteste{
+
+	background-color:#7777FF;
+	width:35px;
+	height:35px;
+	color:white;
+	font-weight: bold;
+	font-size:18px;
+	border-radius: 5px;
+	cursor: pointer;
+
+
+}
+
+
+button#butto{
+
+	margin: 0px auto;
+	width:180px;
+	height:40px;
+	color:white;
+	font-weight: bold;
+	font-size:18px;
+	background-color:#7777FF;
+	border-radius: 5px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.butt2{
+
+	height: 40px;
+	width: 120px;
+	border-radius: 5px;
+	background-color: #7777FF;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+button#butfechar{
+	margin-left: 180px;
+	height: 40px;
+	width: 80px;
+	border-radius: 5px;
+	background-color: #7777FF;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+
+
+
+
+}
+
+
+
+a#expli{
+
+	text-decoration: none;
+}
+
+
+p#verexplica{
+
+	font-size: 20px;
+
+}
+
+

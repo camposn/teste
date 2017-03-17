@@ -1,9 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>pagina</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilo.css">
+	<title>Nome da página</title>
+    <script src="code.js"></script>
 </head>
-<body>
-<p>Alerio</p>
-</body>
+
+<html>
+	<body onload="motor(0)">
+
+		<!--Div principal-->	
+		<div class="container">
+		
+			<div id="telaexplicacao">
+					
+				<p id="titulo_regra"></p>
+
+				<p id="regra"></p>
+
+				<p id="exemplo">Exemplos:</p>
+
+				<ul>
+					<li id="ex1"></li>
+					<li id="ex2"></li>
+					<li id="ex3"></li>
+					<li id="ex4"></li>
+
+				</ul>
+
+				<button id="butfechar" onclick="teste2()">Voltar</button>
+
+			</div>	
+		  <header>
+		  	
+		  
+
+		  </header>	
+			<!--<p >A Palavra é:</p>-->
+			<div id="dapalavra">
+					<p id="palavra_sort"></p> <!--Palavra sorteada-->
+					
+			</div>	
+				<!--Div dos botões certo e errado-->	
+				<div id="botoes">
+					<button id="but_certo">Certo</button> <!--Botão certo-->
+					<button id="but_errado">Errado</button> <!--Botão errado-->
+					<button id="butteste" onclick="teste()">?</button> <!--Botão que chama tela de explicação-->
+				</div>
+				
+				<!--Div da resposta-->
+				<div id="resposta">
+
+					<!--Resposta certa ou Resposta Errada-->
+					<p id="resp"></p>	
+
+				</div>
+
+
+				<!--Div do botão proxima palavra-->	
+				<div id="contin">
+			    	 <button id="butto"></button> 
+			    </div>
+
+			    <!--Div do botão novo jogo-->
+			    <div id="botoes2">
+
+			    	<!--Botão novo jogo, que chama a função principal-->
+			    	<button class="butt2" onclick="location.reload();">Novo Jogo</button> 
+			    	
+			    </div>
+
+
+			    <!--Div da tabela de pontuação-->
+			    <div id="pontuacao">
+			      <table>
+					<tr><td><p id="newpont" class="pont">00</p></td><td><p class="pont">NEW</p></td></tr>
+				 	
+					<tr><td><p id="bestpont" class="pont" value="00">00</p></td><td><p class="pont">BEST</p></td></tr>
+
+				  </table>	
+			    </div>
+		</div>
+		
+
+	</body>
 </html>
